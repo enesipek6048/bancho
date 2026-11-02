@@ -20,6 +20,15 @@ function Fiyat({ deger }: { deger: number | null }) {
   return <>{deger} ₺</>;
 }
 
+function UrunAdi({ ad, aciklama }: { ad: string; aciklama?: string }) {
+  return (
+    <>
+      <span className="urun-ad">{ad}</span>
+      {aciklama && <span className="urun-aciklama">{aciklama}</span>}
+    </>
+  );
+}
+
 function KategoriTablosu({ kategori }: { kategori: Kategori }) {
   const baslikId = `kategori-${kategori.id}`;
   return (
@@ -49,7 +58,9 @@ function KategoriTablosu({ kategori }: { kategori: Kategori }) {
           {kategori.tip === "sicak-soguk"
             ? kategori.urunler.map((u) => (
                 <tr key={u.ad}>
-                  <th scope="row">{u.ad}</th>
+                  <th scope="row">
+                    <UrunAdi ad={u.ad} aciklama={u.aciklama} />
+                  </th>
                   <td className="fiyat">
                     <Fiyat deger={u.sicak} />
                   </td>
@@ -60,7 +71,9 @@ function KategoriTablosu({ kategori }: { kategori: Kategori }) {
               ))
             : kategori.urunler.map((u) => (
                 <tr key={u.ad}>
-                  <th scope="row">{u.ad}</th>
+                  <th scope="row">
+                    <UrunAdi ad={u.ad} aciklama={u.aciklama} />
+                  </th>
                   <td className="fiyat">
                     <Fiyat deger={u.fiyat} />
                   </td>

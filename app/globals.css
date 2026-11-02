@@ -526,6 +526,19 @@ address {
   font-weight: 500;
 }
 
+.urun-ad {
+  display: block;
+}
+
+.urun-aciklama {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgb(23 63 58 / 0.72);
+}
+
 .kategori .fiyat {
   width: 68px;
   font-weight: 600;
