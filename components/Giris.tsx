@@ -27,7 +27,7 @@ export function Giris() {
           src={logo}
           alt={`${isletme.ad} logosu`}
           className="giris-logo"
-          sizes="(min-width: 900px) 160px, 112px"
+          sizes="(min-width: 900px) 340px, 240px"
           priority
         />
         <h1>Kahven hazır, kruvasanın sıcak.</h1>

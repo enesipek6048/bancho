@@ -29,7 +29,7 @@ export function Header() {
     <header className="ust">
       <div className="ust-ic">
         <a href="#giris" className="ust-logo" onClick={() => setAcik(false)}>
-          <Image src={logo} alt={`${isletme.ad} ana sayfa`} sizes="48px" priority />
+          <Image src={logo} alt={`${isletme.ad} ana sayfa`} sizes="160px" priority />
         </a>
         <button
           type="button"

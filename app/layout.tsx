@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: baslik,
   description: aciklama,
   alternates: { canonical: "/" },
-  icons: { icon: "/logo.png", apple: "/logo.png" },
+  icons: { icon: "/simge.png", apple: "/simge.png" },
   openGraph: {
     type: "website",
     locale: "tr_TR",
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     siteName: isletme.ad,
     title: baslik,
     description: aciklama,
-    images: [{ url: "/logo.png", alt: `${isletme.ad} logosu` }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: `${isletme.ad} logosu` }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: baslik,
     description: aciklama,
-    images: ["/logo.png"],
+    images: ["/og.png"],
   },
 };
 
