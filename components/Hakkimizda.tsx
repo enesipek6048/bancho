@@ -9,10 +9,11 @@ export function Hakkimizda() {
   return (
     <section id="hakkimizda" className="hakkimizda">
       <div className="kap hakkimizda-metin">
-        <h2>Niksar&apos;da bambu duvarlı bir köşe</h2>
+        <h2>Niksar&apos;ın kahve molası</h2>
         <p>
-          Duvarlar bambu, her köşede bir tabela var. Kahveni al, kruvasanını seç, acelen yoksa
-          otur. Gece yarısına kadar buradayız; akşamın sonunu da bizde bitirebilirsin.
+          Sabah ilk kahven, öğlen tatlı bir kruvasan, akşam arkadaşlarla uzun bir sohbet.
+          Bancho&apos;da günün her saati için bir bahane var. Kapımız her gün sabah 10&apos;dan
+          gece yarısına kadar açık.
         </p>
       </div>
       <div className="duvar">
