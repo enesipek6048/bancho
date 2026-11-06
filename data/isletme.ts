@@ -27,9 +27,9 @@ export const isletme = {
     il: "Tokat",
     ulkeKodu: "TR",
   },
-  telefon: "0542 594 33 09",
-  telefonUluslararasi: "+905425943309",
-  eposta: "banchocoffee@gmail.com",
+  telefon: "0546 970 15 38",
+  telefonUluslararasi: "+905469701538",
+  eposta: "banchocoffee1@gmail.com",
   instagram: "https://www.instagram.com/banchocoffee/",
   instagramKullanici: "@banchocoffee",
   haritaLinki:
