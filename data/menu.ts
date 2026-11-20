@@ -66,7 +66,7 @@ export const kategoriler: Kategori[] = [
       { ad: "White Mocha", aciklama: "Espresso, beyaz çikolata sosu ve süt.", sicak: 230, soguk: 250 },
       { ad: "Pink White Mocha", aciklama: "Beyaz çikolata ve espressoya pembe, meyvemsi bir dokunuş.", sicak: 250, soguk: 260 },
       { ad: "Pink Mocha", aciklama: "Çikolatalı mochanın pembe, meyvemsi yorumu.", sicak: 250, soguk: 250 },
-      { ad: "Mocha Latte", aciklama: "Espresso, bitter çikolata sosu ve süt.", sicak: 230, soguk: 240 },
+      { ad: "Mocha", aciklama: "Espresso, bitter çikolata sosu ve süt.", sicak: 230, soguk: 240 },
       { ad: "Caramel Macchiato", aciklama: "Vanilyalı süt, üstüne espresso ve karamel sos.", sicak: 230, soguk: 260 },
       { ad: "Ube Latte", aciklama: "Mor patates (ube) aromalı, vanilyalı ve kremamsı latte.", sicak: 210, soguk: 240 },
       { ad: "Vanilla Latte", aciklama: "Espresso, süt ve vanilya şurubu.", sicak: 230, soguk: 240 },
